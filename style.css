@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;   
+	vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Open+Sans:wght@300;400;500;800&family=Oswald:wght@400;500;600&family=Poppins:wght@200;300;500;800&display=swap');
+
+body{
+    background-color: #ffcbdb;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+.lupa{
+    display: flex;
+    justify-content: center;
+}
+
+.lupa img{
+    width: 100px;
+
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    padding-top: 10px;
+    font-size: 15px ;
+}
+
+.imagem{
+    display: flex;
+    justify-self: center;
+    width: 300px;
+    margin: 0 10%;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.conteudo h1{
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.conteudo p{
+    padding-top: 10px;
+    margin: 0.3% 8%;
+}
+
+.quotes-container{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #333;
+    color: #ffcbdb;
+    margin: 20px 0 20px 0;
+}
+
+.original-formation img{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 0 10%;
+}
+
+.former-members-tittle,
+.social-media-tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+}
+
+.former-members ul { 
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0.3% 8%;
+}
+
+.social-media-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media-icons img{
+    width: 40px;
+    padding-bottom: 20px;
+}
+
+@media ( max-width: 1280px){
+    .lupa img{
+        width: 100px;
+    }
+
+    .imagem{
+        margin:  0 10%;
+        width: 750px;
+    }
+
+    .original-formation img{
+        width: 50%;
+        height: 30%;    
+    }
+}
+
+@media ( max-width: 800px){ 
+    .lupa img{
+        width: 150px;
+    }
+
+    .imagem{
+        margin:  0 10%;
+        width: 75%;
+    }
+
+    .original-formation img{
+        width: 75%;
+    }
+}
