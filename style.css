@@ -113,12 +113,11 @@ figcaption{
 
     .imagem{
         margin:  0 10%;
-        width: 750px;
+        width: 75%;
     }
 
     .original-formation img{
-        width: 50%;
-        height: 30%;    
+        width: 75%;   
     }
 }
 
