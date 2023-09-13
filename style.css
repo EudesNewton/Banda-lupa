@@ -37,7 +37,7 @@ figcaption{
 .imagem{
     display: flex;
     justify-self: center;
-    width: 300px;
+    width: 75%;
     margin: 0 10%;
 }
 
